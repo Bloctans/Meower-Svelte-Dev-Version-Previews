@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
+    <meta charset="utf-8" />
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-touch-icon.3ba52577.png">
@@ -16,9 +16,10 @@
     <meta name="msapplication-TileColor" content="#ff7432">
     <meta name="msapplication-TileImage" content="/manifest/mstile-144x144.png">
     <meta name="theme-color" content="#ff7432">
+    <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
     <title>Meower Svelte</title>
-  <script type="module" crossorigin src="./assets/index.9eb83f41.js"></script>
-  <link rel="stylesheet" href="./assets/index.4e41f6dd.css">
+  <script type="module" crossorigin src="./assets/index.97561ec6.js"></script>
+  <link rel="stylesheet" href="./assets/index.ff20c207.css">
 </head>
 
 <body>
@@ -27,6 +28,16 @@
     </noscript>
     <div id="app"></div>
     
+    <!--<script>
+        parse()
+        function parse() {
+            console.log(document.getElementsByClassName("post-content"))
+            for (let i = 0; i < document.getElementsByClassName("post-content").length; i++) {
+                twemoji.parse(document.getElementsByClassName("post-content")[i])
+            }
+            window.requestAnimationFrame(parse)
+        }
+    </script>-->
 </body>
 
 </html>
